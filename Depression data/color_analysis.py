@@ -1,10 +1,11 @@
 import os
 import sys
 
+#Work can be done in '26' or '256 by assigning them in DEFAULT
 DEFAULT = 256
 DB = [[0]*(DEFAULT * 3 + 1) for i in range(20000)]
 
-
+#Getting the path of depression_data(usually depression_color.txt) and happy_data(usually happy_color.txt)
 depression_path = os.path.join(os.path.dirname(__file__), sys.argv[1])
 happy_path = os.path.join(os.path.dirname(__file__), sys.argv[2])
 new_file_name = str(DEFAULT) + ".txt"
