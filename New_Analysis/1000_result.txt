@@ -1,0 +1,6 @@
+### Rogistic Regression ###
+C = 0.1 penalty = l2TEST NUM : 5107, ERROR NUM : 1743, ACCURACY : 0.66
+### Random Forest ###
+n_estimators = 300TEST NUM : 5107, ERROR NUM : 1627, ACCURACY : 0.68
+### SVM ###
+C = 1TEST NUM : 5107, ERROR NUM : 1745, ACCURACY : 0.66
