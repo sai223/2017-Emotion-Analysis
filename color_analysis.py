@@ -4,10 +4,8 @@ import sys
 DEFAULT = 26
 DB = [[0]*(DEFAULT * 3 + 1) for i in range(10000)]
 
-
 directory_path = os.path.join(os.path.dirname(__file__), sys.argv[1])
 new_file_name = "analysis_" + directory_path
-
 
 past_image_id = ''
 image_num = 0
@@ -37,8 +35,6 @@ with open(directory_path, "r") as f:
 		print(line)
 		print(str(line_num) + ' done')
 		line_num += 1
-
-
 
 with open(new_file_name, "w") as f:
 	for i in range(image_num):
